@@ -1,0 +1,16 @@
+﻿Build started 10/25/2014 10:45:37 PM.
+     1>Project "c:\Users\chelengan\documents\visual studio 2012\Projects\TemplateOpencv\TemplateOpencv\TemplateOpencv.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\chelengan\documents\visual studio 2012\Projects\TemplateOpencv\x64\Release\TemplateOpencv.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv249\build\x64\vc11\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\chelengan\documents\visual studio 2012\Projects\TemplateOpencv\x64\Release\TemplateOpencv.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\chelengan\documents\visual studio 2012\Projects\TemplateOpencv\x64\Release\TemplateOpencv.lib" /MACHINE:X64 x64\Release\Main.obj
+     1>Main.obj : error LNK2001: unresolved external symbol cvDestroyWindow
+     1>Main.obj : error LNK2001: unresolved external symbol cvWaitKey
+     1>Main.obj : error LNK2001: unresolved external symbol cvNamedWindow
+     1>Main.obj : error LNK2001: unresolved external symbol cvLoadImage
+     1>Main.obj : error LNK2001: unresolved external symbol cvShowImage
+     1>Main.obj : error LNK2001: unresolved external symbol cvReleaseImage
+     1>c:\users\chelengan\documents\visual studio 2012\Projects\TemplateOpencv\x64\Release\TemplateOpencv.exe : fatal error LNK1120: 6 unresolved externals
+     1>Done Building Project "c:\Users\chelengan\documents\visual studio 2012\Projects\TemplateOpencv\TemplateOpencv\TemplateOpencv.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51
